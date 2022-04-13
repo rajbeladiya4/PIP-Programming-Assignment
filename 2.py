@@ -13,12 +13,13 @@ import pandas as pd
 
 list = pd.Series([10, 50, 80, 70, 49, 23, 11, 4])
 
+# inbuilt Functions to find the mean median and mode
 mean = list.mean()
 median = list.median()
 mode = list.mode()
 
-print(list.min())
-print(list.max())
+print(list.min())       # min() to find the minimum element
+print(list.max())       # max() to find the maximum element
 print(mean)
 print(median)
 print(mode)
